@@ -84,7 +84,6 @@ a {
 
 
 /* Footer */
-/* Footer */
 .m-0 {
     margin: 0px;
 }
@@ -135,3 +134,14 @@ a {
     margin-right: auto;
 }
 /* End footer */
+
+
+/* Feedback */
+blockquote {
+    text-align: center;
+    border: 1px solid #cacaca;
+    padding: 1rem;
+    font-size: 1.2rem;
+}
+
+/* End feed back */
