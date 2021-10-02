@@ -145,3 +145,17 @@ blockquote {
 }
 
 /* End feed back */
+
+
+/* Screenshot */
+/* Screenshot */
+.screenshot {
+    width: 260px;
+    height: 160px;
+}
+
+.screenshot img {
+    width: 100%;
+    height: 100%;
+}
+/* End screenshot */
