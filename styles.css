@@ -1,0 +1,137 @@
+/* Base */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* End base */
+
+
+
+/* Navbar */
+.navbar {
+    border-bottom: 1px solid #cacaca;
+    padding-left: 0;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.navbar-light .navbar-brand, .navbar-light .navbar-nav .nav-link {
+    color: #dd2c00 !important;
+}
+
+#contact-heading {
+    margin-left: 600px;
+}
+
+/* End navbar */
+
+/* Info */
+.group-button {
+    display: flex;
+    width: 500px;
+    align-self: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0 30px;
+}
+
+
+.btn-navigate {
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: black;
+}
+
+.btn-purchase {
+    background-image: -webkit-linear-gradient(top, #FDC379, #D03F1E);
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+
+.btn-take-a-tour {
+    background-image: -webkit-linear-gradient(top, #FFFFFF, #DBDBDB);
+    font-size: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* End info */
+
+
+/* Footer */
+/* Footer */
+.m-0 {
+    margin: 0px;
+}
+#footer {
+    background-color: #4e4d4d;
+    color: white;
+    padding-top: 24px;
+}
+
+#footer .ending {
+    background-color: #323232;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fa {
+    background-color: #4e4d4d;
+    color: #323232;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    padding-top: 8px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    text-decoration: none;
+    color: #323232;
+}
+
+.light-color {
+    color: #b6b6b6;
+}
+
+.copyright {
+    margin-top: 13px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* End footer */
